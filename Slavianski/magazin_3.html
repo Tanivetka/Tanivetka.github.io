@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Магазин №3 | Slavianski </title>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='shortcut icon' href='assets/images/ico.ico' type='image/x-icon'>
+    <link rel='stylesheet' href='assets/css/index.css'>
+    <link rel='stylesheet' href='assets/css/form.css'>
+    <link rel='stylesheet' href='assets/css/galery.css'>
+    <link rel='stylesheet' href='assets/css/personal.css'>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class='header_logo'>
+            <img src='assets/images/logo.png' title='ООО &laquo;Универсам Славянский&raquo;'>
+        </div>
+        <div class='header_text'>
+            Юр.адрес: а&frasl;г Ратомка, ул.Перспективная <br> Лицензия №131313 выдана кем-то-там от 13.13.13г. <br> Тел&frasl;факс +375(29)1131313
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">главная</a></li>
+            <li class='active'><a href="magazins.html">магазины</a></li>
+            <li><a href="discount.html">дисконтная программа</a></li>
+            <li><a href="partner.html">сотрудничество</a></li>
+            <li><a href="contacts.html">контакты</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article class='galery'>
+            <div class='box'>
+                <div class='type'></div>
+                <a href="assets/images/personal_03_ratomka_big.jpg"><img src="assets/images/personal_03_ratomka.jpg"></a>
+                <p> Магазин №1</p>
+            </div>
+            <div class='specific'>
+                <h3> ООО &laquo;Универсам Славянский&raquo; магазин №3 </h3>
+                <p> Адрес: Республика Беларусь, Минский р&ndash;н, а&frasl;г Ратомка, ул. Перспектиктивная, д.12 </p>
+                <p> Режим работы: 9.00&ndash;21.00, без выходных </p>
+                <p> Большой торговый центр расположен в </p>
+                <p> На территории магазина расположено множество торговых павильонов различного назначения. В том числе: </p>
+                <ul>
+                    <li> парикмахерская; </li>
+                    <li> зоомагазин; </li>
+                    <li> аптека; </li>
+                    <li> фитнес-клуб и другое. </li>
+                </ul>
+                <p> Мы сделали максимально комфортным посещение нашего магазина людьми с ограниченными физическими возможностями. В летнее время работает открытое кафе. </p>
+                <p> Мы стараемся сделать наш магазин лучше! </p>
+            </div>
+            <div class='map'>
+                <iframe src="https://yandex.by/map-widget/v1/-/CBqDRZG9xD" width="100%" height="300" frameborder="0"></iframe>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div>
+            <p> Мы всегда прислушиваемся к нашим покупателям. Если у Вас имеются какие&ndash;либо замечания или предложения по работе магазина, Вы всегда можете отправить нам сообщение с помощью <a href="mailto:kom5110982@gmail.com" target='_blank'>электронной почты</a>                или воспользоваться формой обратной связи. </p>
+            <form action="contact-form2.php" method="post">
+                <textarea name="message" rows="4" cols="50" placeholder="Сообщение:" class="message" maxlength="400" required></textarea>
+                <input name="name" placeholder="Имя" class="name" required>
+                <input name="phone" placeholder="Номер телефона" class="name" required>
+                <input name="email" placeholder="Email" class="email" type="email" required>
+                <input name="submit" class="btn" type="submit" value="Отправить">
+            </form>
+        </div>
+        <div class='footer_copy'>
+            <p> &copy; 2013-2018 OOO &laquo;Универсам Славянский&raquo; Все права защищены. </p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Магазины | Slavianski </title>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='shortcut icon' href='assets/images/ico.ico' type='image/x-icon'>
+    <link rel='stylesheet' type="text/css" href='assets/css/index.css'>
+    <link rel='stylesheet' type="text/css" href='assets/css/form.css'>
+    <link rel='stylesheet' type="text/css" href='assets/css/galery.css'>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class='header_logo'>
+            <img src='assets/images/logo.png' title='ООО &laquo;Универсам Славянский&raquo;'>
+        </div>
+        <div class='header_text'>
+            Юр.адрес: а&frasl;г Ратомка, ул.Перспективная <br> Лицензия №131313 выдана кем-то-там от 13.13.13г. <br> Тел&frasl;факс +375(29)1131313
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">главная</a></li>
+            <li class='active'><a href="magazins.html">магазины</a></li>
+            <li><a href="discount.html">дисконтная программа</a></li>
+            <li><a href="partner.html">сотрудничество</a></li>
+            <li><a href="contacts.html">контакты</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article class='galery'>
+            <div class='box'>
+                <div class='type'></div>
+                <a href="magazin_1.html"><img src="assets/images/personal_01_dunina_sm.jpg"></a>
+                <p> Магазин №1, г.Минск</p>
+            </div>
+            <div class='box'>
+                <div class='type'></div>
+                <a href="magazin_2.html"><img src="assets/images/personal_02_zhodino_sm.jpg"></a>
+                <p> Магазин №2, г.Жодино</p>
+            </div>
+            <div class='box'>
+                <div class='type'></div>
+                <a href="magazin_3.html"><img src="assets/images/personal_03_ratomka_sm.jpg"></a>
+                <p> Магазин №3, а&frasl;г Ратомка</p>
+            </div>
+            <div class='box'>
+                <div class='type'></div>
+                <a href="magazin_4.html"><img src="assets/images/personal_04_borisov_sm.jpg"></a>
+                <p> Магазин №4, г.Борисов</p>
+            </div>
+            <div class='box'>
+                <div class='type'></div>
+                <a href="magazin_5.html"><img src="assets/images/personal_05_borovlyany_sm.jpg"></a>
+                <p> Магазин №5, а&frasl;г Боровляны</p>
+            </div>
+            <div class='box'>
+                <div class='type'></div>
+                <a href="magazin_6.html"><img src="assets/images/personal_06_olshevskogo_sm.jpg"></a>
+                <p> Магазин №6, г.Минск</p>
+            </div>
+            <div class='box'>
+                <div class='type'></div>
+                <a href="magazin_7.html"><img src="assets/images/personal_07_zheleznodor_sm.jpg"></a>
+                <p> Магазин №7, г.Минск</p>
+            </div>
+           <!-- <div class='box'>
+                <div class='type'></div>
+                <a href="magazin_8.html"><img src="assets/images/zal_1.jpg"></a>
+                <p> Магазин №8</p> 
+            </div> -->
+        </article>
+    </main>
+    <footer>
+        <div>
+            <p> Мы всегда прислушиваемся к нашим покупателям. Если у Вас имеются какие&ndash;либо замечания или предложения по работе магазина, Вы всегда можете отправить нам сообщение с помощью <a href="mailto:kom5110982@gmail.com" target='_blank'>электронной почты</a>                или воспользоваться формой обратной связи. </p>
+            <form action="contact-form2.php" method="post">
+                <textarea name="message" rows="4" cols="50" placeholder="Сообщение:" class="message" maxlength="400" required></textarea>
+                <input name="name" placeholder="Имя" class="name" required>
+                <input name="phone" placeholder="Номер телефона" class="name" required>
+                <input name="email" placeholder="Email" class="email" type="email" required>
+                <input name="submit" class="btn" type="submit" value="Отправить">
+            </form>
+        </div>
+        <div class='footer_copy'>
+            <p> &copy; 2013-2018 OOO &laquo;Универсам Славянский&raquo; Все права защищены. </p>
+        </div>
+    </footer>
+</body>
+
+</html>

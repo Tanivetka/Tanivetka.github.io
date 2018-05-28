@@ -1,0 +1,431 @@
+.slider {
+    display: block;
+    background: none;
+    padding: 0px;
+    position: relative;
+  /*  min-width: 778px; */
+    max-width: 1178px;
+    width: calc(100vw - 78px);
+    height: 35vw;
+}
+
+.slides>div img {
+    position: absolute;
+    left: 0;
+}
+
+/* скрыли все слайды */
+
+.slides>div {
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+/* --- когда # чекнут, то элемент с классом (), вложенный в слайдер,
+отображать как блочный --- */
+
+.slides>div>img {
+  /*  min-width: 778px; */
+    max-width: 1178px;
+    width: calc(100vw - 78px);
+    height: 35vw;;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+/* --- плавная смена изображений --- */
+
+@keyframes first_slide_animation {
+    from {
+        opacity: 1;
+    }
+    13% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 0;
+    }
+    33% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    53% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    73% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    93% {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes second_slide_animation {
+    from {
+        opacity: 0;
+    }
+    13% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 1;
+    }
+    33% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+    53% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    73% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    93% {
+        opacity: 0;
+    }
+    to {
+        opacity: 0;
+    }
+
+}
+
+@keyframes third_slide_animation {
+    from {
+        opacity: 0;
+    }
+    13% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    33% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    53% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 0;
+    }
+    73% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    93% {
+        opacity: 0;
+    }
+    to {
+        opacity: 0;
+    }
+
+}
+
+@keyframes fourth_slide_animation {
+    from {
+        opacity: 0;
+    }
+    13% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    33% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    53% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    73% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0;
+    }
+    93% {
+        opacity: 0;
+    }
+    to {
+        opacity: 0;
+    }
+
+}
+
+@keyframes fifth_slide_animation {
+    from {
+        opacity: 0;
+    }
+    13% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    33% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    53% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    73% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    93% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+
+}
+
+@-webkit-keyframes first_slide_animation {
+    from {
+        opacity: 1;
+    }
+    13% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 0;
+    }
+    33% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    53% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    73% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    93% {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes second_slide_animation {
+    from {
+        opacity: 0;
+    }
+    13% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 1;
+    }
+    33% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+    53% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    73% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    93% {
+        opacity: 0;
+    }
+    to {
+        opacity: 0;
+    }
+
+}
+
+@-webkit-keyframes third_slide_animation {
+    from {
+        opacity: 0;
+    }
+    13% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    33% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    53% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 0;
+    }
+    73% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    93% {
+        opacity: 0;
+    }
+    to {
+        opacity: 0;
+    }
+
+}
+
+@-webkit-keyframes fourth_slide_animation {
+    from {
+        opacity: 0;
+    }
+    13% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    33% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    53% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    73% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0;
+    }
+    93% {
+        opacity: 0;
+    }
+    to {
+        opacity: 0;
+    }
+
+}
+
+@-webkit-keyframes fifth_slide_animation {
+    from {
+        opacity: 0;
+    }
+    13% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    33% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    53% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    73% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    93% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+
+}
+
+.first_slide {
+    animation-name: first_slide_animation;
+    -webkit-animation-name: first_slide_animation;
+}
+
+.second_slide {
+    animation-name: second_slide_animation;
+    -webkit-animation-name: second_slide_animation;
+}
+
+.third_slide {
+    animation-name: third_slide_animation;
+    -webkit-animation-name: third_slide_animation;
+}
+
+.fourth_slide {
+    animation-name: fourth_slide_animation;
+    -webkit-animation-name: fourth_slide_animation;
+}
+
+.fifth_slide {
+    animation-name: fifth_slide_animation;
+    -webkit-animation-name: fifth_slide_animation;
+}   

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Дисконтная программа | Slavianski </title>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='shortcut icon' href='assets/images/ico.ico' type='image/x-icon'>
+    <link rel='stylesheet' href='assets/css/index.css'>
+    <link rel='stylesheet' href='assets/css/form.css'>
+    <link rel='stylesheet' href='assets/css/galery.css'>
+    <link rel='stylesheet' href='assets/css/personal.css'>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class='header_logo'>
+            <img src='assets/images/logo.png' title='ООО &laquo;Универсам Славянский&raquo;'>
+        </div>
+        <div class='header_text'>
+            Юр.адрес: а&frasl;г Ратомка, ул.Перспективная <br> Лицензия №131313 выдана кем-то-там от 13.13.13г. <br> Тел&frasl;факс +375(29)1131313
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">главная</a></li>
+            <li><a href="magazins.html">магазины</a></li>
+            <li class='active'><a href="discount.html">дисконтная программа</a></li>
+            <li><a href="partner.html">сотрудничество</a></li>
+            <li><a href="contacts.html">контакты</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article class='content'>
+            <div class='flipcard h'>
+                <div class="front"><img src="assets/images/discount.png"></div>
+                <div class="back"><img src="assets/images/discount_rew.png"></div>
+            </div>
+            <div class='specific'>
+                <h3> Положение о дисконтной программе &laquo;Накопительная&raquo;. </h3>
+                <p> Участие в дисконтной программе &laquo;Накопительная&raquo; &mdash; это возможность получать скидки до 5% от суммы чека в сети магазинов &laquo;Универсам Славянский&raquo;. </p>
+                <p> Дисконтная программа не распространяется на товары, реализуемые по фиксированным ценам, и товары, цены на которые регулируются государством. </p>
+                <ul> Механизм действия дисконтной программы.
+                    <li> Система скидок в рамках дисконтной программы является накопительной. </li>
+                    <li> Все суммы покупок, совершенных с использованием дисконтной карты, заносятся на накопительный счет на следующий день после совершения операции. </li>
+                    <li> Период накопления составляет 60 календарных дней. </li>
+                    <li> Размер скидки зависит от общей стоимости покупок, совершенных за предыдущие 60 дней. </li>
+                </ul>
+                <p> Определены следующие размеры предоставляемой скидки в зависимости от суммы накопления: </p>
+                <table>
+                    <tr>
+                        <th>1%</th>
+                        <td> до 100р. 01к. </td>
+                    </tr>
+                    <tr>
+                        <th>2%</th>
+                        <td> от 100р. 01к. до 300р. </td>
+                    </tr>
+                    <tr>
+                        <th>3%</th>
+                        <td> от 300р. 01к. до 500р. </td>
+                    </tr>
+                    <tr>
+                        <th>4%</th>
+                        <td> от 500р. 01к. до 700р. </td>
+                    </tr>
+                    <tr>
+                        <th>5%</th>
+                        <td> от 700р. 01к.</td>
+                    </tr>
+                </table>
+                <p> Для получения скидки владелец дисконтной карты должен предъявить ее кассиру до момента расчета за покупку. </p>
+                <p> Скидки по различным видам скидок не суммируются. При наличии у покупателя права на получение скидки на нескольких основаниях предоставляется скидка по решению покупателя. </p>
+                <p> При возвращении товара происходит списание стоимости возвращенных товаров с накопительного счета с последующим изменением уровня скидки. </p>
+                <p> Только правильно заполненная анкета является основанием для восстановления дисконтной карты в случае ее потери или повреждения. </p>
+                <p> ООО &laquo;Универсам Славянский&raquo; (организатор дисконтной программы) имеет право изменить или дополнить условия и сроки проведения дисконтной программы &laquo;Накопительная&raquo; в одностороннем порядке без уведомления другой стороны.</p>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div>
+            <p> Мы всегда прислушиваемся к нашим покупателям. Если у Вас имеются какие&ndash;либо замечания или предложения по работе магазина, Вы всегда можете отправить нам сообщение с помощью <a href="mailto:kom5110982@gmail.com" target='_blank'>электронной почты</a>                или воспользоваться формой обратной связи. </p>
+            <form action="contact-form2.php" method="post">
+                <textarea name="message" rows="4" cols="50" placeholder="Сообщение:" class="message" maxlength="400" required></textarea>
+                <input name="name" placeholder="Имя" class="name" required>
+                <input name="phone" placeholder="Номер телефона" class="name" required>
+                <input name="email" placeholder="Email" class="email" type="email" required>
+                <input name="submit" class="btn" type="submit" value="Отправить">
+            </form>
+        </div>
+        <div class='footer_copy'>
+            <p> &copy; 2013-2018 OOO &laquo;Универсам Славянский&raquo; Все права защищены. </p>
+        </div>
+    </footer>
+</body>
+
+</html>
